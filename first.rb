@@ -2,7 +2,6 @@ print "Enter your name: "
 name = gets.chomp
 puts "Hello " + name
 puts "Hello #{name}"
-puts "Hello " << name
 
 print "Enter the number of cups: "
 cups = gets.chomp
